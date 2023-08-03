@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversão de Tipos</title>
+</head>
+<body>
+    <h1>Capturando dados e convertendo em números</h1>
+    <script>
+        // window.prompt() sempre retorna uma string
+        // Number.parseInt() retorna um número inteiro
+        // Number.parseFloat() retorna um número real
+        // Number() retorna um número real
+        // String() retorna uma string
+        var n1 = Number(window.prompt('Digite um número:'))
+        var n2 = Number(window.prompt('Digite outro número:'))
+        var soma = n1 + n2
+        window.alert(`A soma entre ${n1} e ${n2} é igual à ${soma}`)
+         // window.alert('A soma entre ' + n1 + ' e ' + n2 + ' é ' + String(soma)) forma antiga de declarar
+        // (number + number) para adição
+        // (string +string) para concatenação
+    </script>
+</body>
+</html>

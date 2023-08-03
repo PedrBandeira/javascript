@@ -12,3 +12,6 @@
 | Exercício | Link     |
 |    :----:   |  :---: | 
 | Olá, Mundo! | [ex001](https://pedrbandeira.github.io/javascript/aula04/ex001.html) |
+| Guaradando seu nome em uma variável | [ex002](https://pedrbandeira.github.io/javascript/aula06/ex002.html) |
+| Conversão de Tipos | [ex003](https://pedrbandeira.github.io/javascript/aula06/ex003.html) |
+| Tratando dados | [ex004](https://pedrbandeira.github.io/javascript/aula06/ex004.html) |
