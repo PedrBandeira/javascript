@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio: Brasileiro ou Estrangeiro?</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Verificação de Nacionalidade</h1>
+    <form action="" method="post" autocomplete="on" onsubmit="status(); return false;">
+        <p>
+            <label for="nome">Nome:</label>
+            <input type="text" name="nome" id="nome">
+        </p>
+        <p>
+            <label for="nascimento">Data de Nascimento: </label>
+            <input type="date" name="nascimento" id="nascimento">
+        </p>
+        <p>
+            <label for="nacionalidade">País de Nascimento:</label>
+            <select name="nacionalidade" id="nacionalidade">
+                <option value="" selected>--- Escolha ---</option>
+                <option value="BRA">Brasil</option>
+                <option value="ANT">Antígua e Barbuda</option>
+                <option value="ARG">Argentina</option>
+                <option value="BAH">Bahamas</option>
+                <option value="BAR">Barbados</option>
+                <option value="BIZ">Belize</option>
+                <option value="BOL">Bolívia</option>
+                <option value="CAN">Canadá</option>
+                <option value="CHI">Chile</option>
+                <option value="COL">Colômbia</option>
+                <option value="CRC">Costa Rica</option>
+                <option value="CUB">Cuba</option>
+                <option value="DMA">Dominica</option>
+                <option value="ESA">El Salvador</option>
+                <option value="ECU">Equador</option>
+                <option value="USA">Estados Unidos</option>
+                <option value="GUA">Granada</option>
+            </select>
+        </p>
+        <p>
+            <label for="paisAtual">País Atual:</label>
+            <select name="paisAtual" id="paisAtual">
+                <option value="" selected>--- Escolha ---</option>
+                <option value="BRA">Brasil</option>
+                <option value="ANT">Antígua e Barbuda</option>
+                <option value="ARG">Argentina</option>
+                <option value="BAH">Bahamas</option>
+                <option value="BAR">Barbados</option>
+                <option value="BIZ">Belize</option>
+                <option value="BOL">Bolívia</option>
+                <option value="CAN">Canadá</option>
+                <option value="CHI">Chile</option>
+                <option value="COL">Colômbia</option>
+                <option value="CRC">Costa Rica</option>
+                <option value="CUB">Cuba</option>
+                <option value="DMA">Dominica</option>
+                <option value="ESA">El Salvador</option>
+                <option value="ECU">Equador</option>
+                <option value="USA">Estados Unidos</option>
+                <option value="GUA">Granada</option>
+            </select>
+        </p>
+        <p>
+            <input type="submit" value="Verificar" onsubmit="status()">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+    <div id="resultado">
+
+    </div>
+
+    <script>
+        function status() {
+            var nome = window.document.getElementById('nome').value
+            var nascimento = window.document.getElementById('nascimento').value
+            var nacionalidade = window.document.getElementById('nacionalidade').selectedOptions[0].text
+            var paisAtual = window.document.getElementById('paisAtual').selectedOptions[0].text
+            var resultado = window.document.getElementById('resultado')
+
+            // Formatação da Data
+            var dataFormatada = new Date(nascimento).toLocaleDateString('pt-br', {timeZone: 'UTC'})
+            
+            resultado.innerHTML = `<p>Olá, <em>${nome}</em>. Você nasceu no dia <em>${dataFormatada}</em>, no(a) <strong>${nacionalidade}</strong>. Seu país atual é <em>${paisAtual}</em>.</p>`
+
+            if (nacionalidade == "Brasil") {
+                resultado.innerHTML += 'Você é <strong>brasileiro</strong>!'
+            } else {
+                resultado.innerHTML += 'Você é <strong>estrangeiro</strong>!'
+            }
+        }
+    </script>
+</body>
+</html>
