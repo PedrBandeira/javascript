@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 15 - Verificador de Idade</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Verificador de Idade</h1>
+    </header>
+    <section>
+        <form action="">
+            <p>
+                <label for="ano">Ano de Nascimento: </label>
+                <input type="number" name="ano" id="ano" min="1900" max="2023" required>
+            </p>
+            <p>
+                Sexo: 
+                <input type="radio" name="sexo" id="masculino" value="masculino">
+                <label for="masculino">Masculino</label>
+                <input type="radio" name="sexo" id="feminino" value="feminino">
+                <label for="feminino">Feminino</label>
+            </p>
+            <input type="button" value="Verificar" onclick="verificar()">
+        </form>
+        <div id="resultado">
+            Preencha os dados acima para ver o resultado!
+        </div>
+    </section>
+    <footer>
+        <p>&copy; CursoemVideo</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
