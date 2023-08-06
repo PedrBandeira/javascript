@@ -2,9 +2,9 @@
 
 ### Links Úteis
 
-[Meu perfil no GitHub](https://github.com/PedrBandeira)
-[Site do Curso em Vídeo](https://www.cursoemvideo.com/)
-[Canal do Curso em Vídeo](https://www.youtube.com/@CursoemVideo)
+- [Meu perfil no GitHub](https://github.com/PedrBandeira)
+- [Site do Curso em Vídeo](https://www.cursoemvideo.com/)
+- [Canal do Curso em Vídeo](https://www.youtube.com/@CursoemVideo)
 
 ### Conteúdo do Curso
 
