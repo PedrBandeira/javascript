@@ -1,4 +1,4 @@
-# javascript —  Curso de JavaScript do Curso em Vídeo
+# Javascript — Curso em Vídeo
 
 ### Links Úteis
 
@@ -26,3 +26,9 @@
 | Programa retorna o dia da semana | [ex013](https://github.com/PedrBandeira/javascript/blob/main/aula12/ex013.js) |
 | Hora do Dia | [ex014](https://pedrbandeira.github.io/javascript/aula12ex/ex014/ex014.html) |
 | Verificador de Idade | [ex015](https://pedrbandeira.github.io/javascript/aula12ex/ex015/ex015.html) |
+| Estruturas de Repetição (while, Do While e For)| [aula13](https://pedrbandeira.github.io/javascript/aula13/ambiente.js) |
+| Super Contador | [ex016](https://pedrbandeira.github.io/javascript/aula14ex/ex016/ex016.html) |
+| Tabuada com Textarea | [ex017-a](https://pedrbandeira.github.io/javascript/aula14ex/ex017/ex017-a.html) |
+| Tabuada com TSelect | [ex017-b](https://pedrbandeira.github.io/javascript/aula14ex/ex017/ex017-b.html) |
+| Arrays | [aula15](https://pedrbandeira.github.io/javascript/aula15/ambiente.js) - [aula15](https://pedrbandeira.github.io/javascript/aula15/vetornatela.js)|
+| Funções | [aula16](https://pedrbandeira.github.io/javascript/aula16/funcao01.js) - [aula16](https://pedrbandeira.github.io/javascript/aula16/funcao02.js) - [aula16](https://pedrbandeira.github.io/javascript/aula16/funcao03.js) - [aula16](https://pedrbandeira.github.io/javascript/aula16/funcao04.js) - [aula16](https://pedrbandeira.github.io/javascript/aula16/funcao05.js)|
