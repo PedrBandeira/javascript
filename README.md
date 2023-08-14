@@ -32,3 +32,4 @@
 | Tabuada com TSelect | [ex017-b](https://pedrbandeira.github.io/javascript/aula14ex/ex017/ex017-b.html) |
 | Arrays | [aula15](https://pedrbandeira.github.io/javascript/aula15/ambiente.js) - [aula15](https://pedrbandeira.github.io/javascript/aula15/vetornatela.js)|
 | Funções | [aula16](https://pedrbandeira.github.io/javascript/aula16/funcao01.js) - [aula16](https://pedrbandeira.github.io/javascript/aula16/funcao02.js) - [aula16](https://pedrbandeira.github.io/javascript/aula16/funcao03.js) - [aula16](https://pedrbandeira.github.io/javascript/aula16/funcao04.js) - [aula16](https://pedrbandeira.github.io/javascript/aula16/funcao05.js)|
+| Analisador de Números | [ex018-a](https://pedrbandeira.github.io/javascript/aula16ex/ex018.html) - [ex018-b](https://pedrbandeira.github.io/javascript/aula16ex/ex018-b.html)
