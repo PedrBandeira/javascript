@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tabuada</title>
+    <title>Tabuada com Select</title>
     <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
@@ -16,11 +16,12 @@
                 <p>
                     <label for="numero">Número:</label>
                     <input type="number" name="numero" id="numero">
-                    <input type="button" value="Gerar Tabuada" onclick="tabuada()">
+                    <input type="button" value="Gerar Tabuada" onclick="tabuadaSelect()">
                 </p>
-                <p>
-                    <pre><textarea name="area" id="area" cols="30" rows="10" placeholder="Digite um número acima"></textarea></pre>
-                </p>
+                <select name="tabuada" id="tabuada" size="10">
+                    <option>Digite um número acima</option>
+                </select>
+                <div id="resultado"><p>Digite um número para saber sua tabuada!</p></div>
             </form>
         </div>
     </section>
