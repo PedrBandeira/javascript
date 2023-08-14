@@ -13,6 +13,7 @@ function adicionar() {
         lista.appendChild(item)
         listagem.push(num)
         document.getElementById('numero').value = ''
+        num.focus()
     }
 }
 
