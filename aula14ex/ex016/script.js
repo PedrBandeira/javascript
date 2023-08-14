@@ -1,4 +1,4 @@
-/* Meu Código:
+// Meu Código:
 function contar() {
     // Variáveis   
     var inicio = parseInt(document.querySelector('input#inicio').value)
@@ -36,25 +36,37 @@ function contar() {
         exibirResultado()
     }  
 }
-*/
 
-/* Código do CursoemVideo:*/
+/* Código do CursoemVideo:
 function contar() {
     let ini = document.getElementById('inicio')
     let fim = document.getElementById('fim')
     let passo = document.getElementById('passo')
     let res = document.getElementById('resultado')
 
-    if (ini.ariaValueMax.length == 0 || fim.value.length == 0 || passo.value.length == 0) {
-        window.alert('[ERRO] Faltam dados!')
+    if (ini.value.length == 0 || fim.value.length == 0 || passo.value.length == 0) {
+        res.innerHTML = 'Impossível contar!'
+        // window.alert('[ERRO] Faltam dados!') 
     } else {
-        res.innerHTML = 'Contando: '
+        res.innerHTML = 'Contando: <br>'
         let i = Number(ini.value)
         let f = Number(fim.value)
         let p = Number(passo.value)
-
-        for (let c = i; c <= f; c += p) {
-            res.innerHTML += `${c} \u{1F603}`
+        if (p <= 0) {
+            window.alert('Passo inválido!')
+            p = 1
         }
+
+        if (i < f) {
+            for (let c = i; c <= f; c += p) {
+                res.innerHTML += `${c} \u{1F449}`
+            }
+        } else {
+            for (let c = i; c >= f; c -= p) {
+                res.innerHTML += `${c} \u{1F449}`
+            }
+        }
+        res.innerHTML += '\u{1F3C1}'
     }
 }
+*/
